@@ -2,7 +2,8 @@
 Feature Select PyPackage
 =========================
 
-`Feature Select`_ template for a Python package.
+`Feature Select`_ an simple yet effective solution to select feautres from a numeric dataset, which yields best result,
+given a Machine Learning algorithm.
 
 - GitHub repo: https://github.com/himanshu-dutta/featureselect/
 - Free software: MIT license
@@ -18,7 +19,8 @@ Features
 Quickstart
 ----------
 
-Install the latest Feature Select if you haven't installed it yet (this requires
-Cookiecutter 1.4.0 or higher)::
+Install the latest Feature Select if you haven't installed it yet ::
 
-    pip install -U featureselect
+    pip install featureselect
+
+The project is still in developement phase, stable release would be made available soon.
