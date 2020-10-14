@@ -2,8 +2,8 @@
 Feature Select PyPackage
 =========================
 
-`Feature Select`_ an simple yet effective solution to select feautres from a numeric dataset, which yields best result,
-given a Machine Learning algorithm.
+`Feature Select`_ a simple yet effective solution to select set of feautres from a numeric dataset, which yield 
+best results, given a Machine Learning algorithm.
 
 - GitHub repo: https://github.com/himanshu-dutta/featureselect/
 - Free software: MIT license
