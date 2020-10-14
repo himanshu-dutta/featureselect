@@ -2,7 +2,7 @@
 Feature Select PyPackage
 =========================
 
-Feature Select_ template for a Python package.
+Feature_Select_ template for a Python package.
 
 - GitHub repo: https://github.com/himanshu-dutta/featureselect/
 - Free software: MIT license
@@ -12,7 +12,7 @@ Feature Select_ template for a Python package.
 - Testing setup with `unittest` and `python setup.py test` or `pytest`
 - Compatible with all platforms
 
-.. _Feature Select : https://github.com/cookiecutter/cookiecutter
+.. _Feature_Select : https://github.com/himanshu-dutta/featureselect/
 
 ## Quickstart
 
