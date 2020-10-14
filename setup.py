@@ -5,7 +5,7 @@ with open("README.rst", "r") as fh:
 
 setup(
     name="featureselect",
-    version="0.0.1",
+    version="0.0.2",
     description="Say hello!",
     py_modules=["featureselect"],
     package_dir={"": "src"},
