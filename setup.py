@@ -6,7 +6,7 @@ with open("README.rst", "r") as fh:
 setup(
     name="featureselect",
     version="0.0.2",
-    description="Say hello!",
+    description="An elegant and effectice solution to get best set of features from a dataset!",
     py_modules=["featureselect"],
     package_dir={"": "src"},
     long_description=long_description,
@@ -15,6 +15,7 @@ setup(
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
         "License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)",
         "Operating System :: OS Independent",
     ],
