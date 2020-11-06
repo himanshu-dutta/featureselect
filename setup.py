@@ -11,7 +11,6 @@ setup(
     py_modules=["featureselect"],
     package_dir={"": "featureselect"},
     long_description=long_description,
-    # long_description_content_type="text/markdown",
     classifiers=[
         "Development Status :: 2 - Pre-Alpha",
         "Programming Language :: Python :: 3",
