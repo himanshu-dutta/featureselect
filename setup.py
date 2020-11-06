@@ -6,7 +6,7 @@ with open("README.rst", "r") as fh:
 setup(
     name="featureselect",
     keywords="featureselect",
-    version="0.0.2",
+    version="0.0.3",
     description="An elegant and effectice solution to get best set of features from a numerical dataset!",
     py_modules=["featureselect"],
     package_dir={"": "featureselect"},
