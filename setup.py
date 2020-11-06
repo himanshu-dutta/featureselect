@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 with open("README.rst", "r") as fh:
     long_description = fh.read()
@@ -9,7 +9,8 @@ setup(
     version="0.0.4",
     description="An elegant and effectice solution to get best set of features from a numerical dataset!",
     py_modules=["featureselect"],
-    package_dir={"": "featureselect"},
+    packages=find_packages(),
+    # package_dir={"": "featureselect", "base": "featureselect/base"},
     long_description=long_description,
     classifiers=[
         "Development Status :: 2 - Pre-Alpha",

@@ -1,3 +1,7 @@
+__all__ = ["featureselect"]
+__package__ = "featureselect"
+__name__ = "featureselect"
+
 # preprocessing & utility
 import numpy as np
 from .base.utils import set_parameters
