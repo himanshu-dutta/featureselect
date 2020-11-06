@@ -14,6 +14,7 @@ def DEOptimizer(
     model,
     fit: str = "fit",
     predict: str = "predict",
+    epochs: int = 10,
     threshold: float = 0.5,
     test_size: float = 0.2,
     early_stopping: bool = False,
@@ -55,7 +56,7 @@ def DEOptimizer(
     SCALING_FACTOR = 0.85
     CROSS_PROB = 0.8
     TARGET_SIZE = 20
-    EPOCHS = 20
+    EPOCHS = epochs
 
     fitness = set_parameters(model, X, y, fit, predict, threshold, test_size, **kwargs)
 
@@ -87,6 +88,7 @@ def GAOptimizer(
     model,
     fit: str = "fit",
     predict: str = "predict",
+    epochs: int = 10,
     threshold: float = 0.5,
     test_size: float = 0.2,
     verbose: bool = False,
@@ -131,7 +133,7 @@ def GAOptimizer(
     CHROM_SIZE = DIM
     SURVIVAL_RATE = 0.6
     MUTATION_RATIO = 0.30
-    GEN_COUNT = 10
+    GEN_COUNT = epochs
 
     fitness = set_parameters(model, X, y, fit, predict, threshold, test_size, **kwargs)
 
@@ -156,6 +158,7 @@ def PSOptimizer(
     model,
     fit: str = "fit",
     predict: str = "predict",
+    epochs: int = 10,
     threshold: float = 0.5,
     test_size: float = 0.2,
     early_stopping: bool = False,
@@ -198,7 +201,7 @@ def PSOptimizer(
     DIM = X.shape[1]
     BOUNDS = [0.0, 1.0]
 
-    EPOCHS = 10  # the number of iterations for which the swarm will train
+    EPOCHS = epochs  # the number of iterations for which the swarm will train
     w = 0.50  # inertial value for effect of current velocity
     c1 = 0.45  # coeff for effect of particle best position
     c2 = 0.55  # coeff for effect of swarm best position
@@ -234,6 +237,7 @@ def SAOptimizer(
     model,
     fit: str = "fit",
     predict: str = "predict",
+    epochs: int = 10,
     threshold: float = 0.5,
     test_size: float = 0.2,
     verbose: bool = False,
@@ -274,7 +278,7 @@ def SAOptimizer(
     DIM = X.shape[1]
     BOUNDS = [0.0, 1.0]
 
-    EPOCHS = 30
+    EPOCHS = epochs
     TRIALS = 50
     P1 = 0.8
     P2 = 0.001
