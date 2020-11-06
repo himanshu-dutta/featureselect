@@ -6,14 +6,13 @@ with open("README.rst", "r") as fh:
 setup(
     name="featureselect",
     keywords="featureselect",
-    version="0.0.2",
+    version="0.0.3",
     description="An elegant and effectice solution to get best set of features from a numerical dataset!",
     py_modules=["featureselect"],
     package_dir={"": "featureselect"},
     long_description=long_description,
-    # long_description_content_type="text/markdown",
     classifiers=[
-        "Development Status :: 1 - Pre-Alpha",
+        "Development Status :: 2 - Pre-Alpha",
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
